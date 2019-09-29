@@ -1,0 +1,40 @@
+#+TITLE: Wiki2 using scribble
+
+* TODO list
+
+** TODO switch
+The emacs scribble mode is not powerful enough. Thus I cannot switch yet.
+
+Currently, the compiling process: first in this repo, run
+
+#+BEGIN_EXAMPLE
+raco pkg install
+#+END_EXAMPLE
+
+This will make the current project under raco control. Then in any
+directory, run
+
+#+BEGIN_EXAMPLE
+raco setup wiki2
+#+END_EXAMPLE
+
+This will use =scribblings= variable in this =info.rkt= to render
+htmls, into =doc/= folder.
+
+** use info.rkt as Makefile
+
+So that raco scribble will compile all .scrbl files into appropriate
+directory with proper hierarchy.
+
+** Better Emacs support
+
+My own scribble-mode.
+
+** cross linking and multi-page hierarchy
+** codeblock for different langs
+** Style file
+** pdf output
+
+- item
+- item fjdis jfids jfsd
+

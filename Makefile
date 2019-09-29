@@ -1,3 +1,3 @@
 .phony: all clean
 all:
-	scribble index.scrbl
+	scribble --dest dist index.scrbl
